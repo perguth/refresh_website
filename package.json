@@ -25,6 +25,10 @@
   },
   "devDependencies": {
     "gulp": "^3.8.11",
+    "standard": "^3.2.1",
     "webpack": "^1.7.3"
+  },
+  "scripts": {
+    "test": "standard"
   }
 }
