@@ -1,0 +1,30 @@
+{
+  "name": "refresh_website",
+  "version": "0.0.1",
+  "description": "Refresh websites automatically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pguth/refresh_website"
+  },
+  "keywords": [
+    "refresh",
+    "automatically"
+  ],
+  "author": "Per Guth <mail@perguth.de>",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/pguth/refresh_website/issues"
+  },
+  "homepage": "https://github.com/pguth/refresh_website",
+  "dependencies": {
+    "alt": "^0.14.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "webpack": "^1.7.3"
+  }
+}
