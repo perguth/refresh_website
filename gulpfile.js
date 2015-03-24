@@ -10,7 +10,7 @@ gulp.task('watch', function () {
   gulp.watch('**/*.js', function (event) {
     browserify({ debug: true })
       .transform(babelify)
-      .require('./script.js', { entry: true })
+      .require('./index.js', { entry: true })
       .bundle()
       .on('error', function (err) { console.log('Error: ' + err.message) })
       .pipe(fs.createWriteStream('bundle.js'))
