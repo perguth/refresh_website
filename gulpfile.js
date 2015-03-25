@@ -7,7 +7,7 @@ gulp.task('default', function () {
   // place code for your default task here
 })
 gulp.task('watch', function () {
-  gulp.watch('**/*.js', function (event) {
+  gulp.watch(['index.js', 'js/**/*.js'], function (event) {
     browserify({ debug: true })
       .transform(babelify)
       .require('./index.js', { entry: true })
